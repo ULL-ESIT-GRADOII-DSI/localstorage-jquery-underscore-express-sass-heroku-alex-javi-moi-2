@@ -21,6 +21,7 @@
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-minify-css": "^1.2.4",
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^1.5.3",
@@ -32,9 +33,9 @@
     "karma-html2js-preprocessor": "^0.1.0",
     "karma-mocha": "~0.2.2",
     "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sinon": "~1.0.4",
     "mocha": "~2.4.5",
     "phantomjs-prebuilt": "^2.1.7",
-    "sinon": "~1.17.3",
-    "karma-sinon": "~1.0.4"
+    "sinon": "~1.17.3"
   }
 }

@@ -8,13 +8,15 @@
   </head>
   <body>
     <div id="mocha"></div>
-    <script src="mocha.js"></script>
-    <script src="chai.js"></script>
+    <script src="../test/mocha.js"></script>
+    <script src="../test/chai.js"></script>
+    <script src="../test/sinon-1.17.2.js"></script>
+    <script src="../test/blanket.js" data-cover-adapter="../test/mocha-blanket.js" data-cover-flags="debug"></script>
+    
+    <script scr="../assets/js/csv.js"></script>
     
     <script>mocha.setup('bdd');</script>
-    <script src="tests.js"></script>
-    <script>
-      mocha.run();
-    </script>
+    <script src="../test/tests.js"></script>
+    <script>mocha.run();</script>
   </body>
 </html>

@@ -4,16 +4,19 @@
     <title>Mocha</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mocha.css" />
+    <link rel="stylesheet" href="../test/mocha.css" />
   </head>
   <body>
-    <div id="mocha"></div>
+    <div id="mocha"><p><a href=".">Index</a></p></div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+    
     <script src="../test/mocha.js"></script>
     <script src="../test/chai.js"></script>
     <script src="../test/sinon-1.17.2.js"></script>
     <script src="../test/blanket.js" data-cover-adapter="../test/mocha-blanket.js" data-cover-flags="debug"></script>
     
-    <script scr="../assets/js/csv.js"></script>
+    <script scr="../assets/js/csv.js" data-cover></script>
     
     <script>mocha.setup('bdd');</script>
     <script src="../test/tests.js"></script>

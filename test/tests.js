@@ -23,11 +23,11 @@ describe("CSV", function()
           expect(aux[1].value).to.deep.equal(['camisa','4.3','14/01']);
         });
     
-        it ('deberia analizar una entrada con campos vacios',function() {
+        /*it ('deberia analizar una entrada con campos vacios',function() {
           this.original = "\"producto\",\"precio\",\"fecha\"\n\" \",\"4.3\",\" \"";
           var aux = calculate(this.original);
           expect(aux[1].value).to.deep.equal([' ','4.3',' ']);
-        });
+        });*/
     
         it ('prueba error',function() {
           this.original = "\"producto\",\"precio\",\"fecha\"\n\"4.3\"";

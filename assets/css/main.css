@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  font-size: 100;
+  font-weight: normal; }
+
+nav ul {
+  list-style: none;
+  background-color: black; }
+nav > ul {
+  position: relative;
+  display: table;
+  width: 100%; }
+nav > ul li {
+  display: table-cell; }
+nav > ul > li:hover > ul {
+  display: block;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+nav ul li ul {
+  display: block;
+  position: absolute;
+  background: black;
+  width: auto; }
+nav ul li #paginas li {
+  width: auto; }
+nav ul li #repos li {
+  width: auto; }
+nav > ul > li > ul {
+  display: none; }
+nav > ul li a {
+  color: white;
+  display: block;
+  line-height: 25px;
+  padding: 12.5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none; }
+nav ul li a:hover {
+  background: white;
+  color: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.nav {
+  position: static; }
+
+/*# sourceMappingURL=main.css.map */

@@ -22,25 +22,74 @@
   </head>
   
   <body>
-    
-    
-    <div><h1>Comma Separated Value Analyzer</h1></div>
-    
     <div>
-      <p><i> Go to the <a href="https://github.com/crguezl/csv">repo</a>.</i></p>
-      <i>Write a CSV string. Click the table button. The program outputs a table with the specified data.</i>
-    </div>
-    <div>
-      <table>
-        <tr>
-          <th>CSV string:</th> <!-- autofocus attribute is HTML5 -->
-          <td><textarea autofocus cols = "80" rows = "5" id="original"></textarea></td> 
-        </tr>
-      </table>
+      <nav id="nav" role="navigation">
+	          <ul class="menu">
+              <li><a href="https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2" title="Repositorio Github" >Repositorio Github</a></li>
+              <li><a href="#" title="Páginas">Páginas Personales</a>
+                  <ul id="paginas">
+                      <li><a href="http://alu0100767421.github.io">Alexander</a></li>
+                      <li><a href="http://alu0100505009.github.io">Javier</a></li>
+                      <li><a href="http://alu0100782851.github.io">Moisés</a></li>
+                  </ul>
+              </li>
+              <li><a href="https://campusvirtual.ull.es/1516/mod/page/view.php?id=187375" title="Descripcion">Descripción de la Práctica</a></li>
+            </ul>
+      </nav>
     </div>
     
-    <button type="button">table:</button><br>
-    <span class="output" id="finaltable"></span>
+    
+    <div id="container">
+      <div id="izquierda">
+        
+        <div id="titulo">
+          <h1>Comma Separated Value Analyzer</h1>
+        </div>
+        
+        <div id="ayuda">
+            <div id="arriba">
+              <p>Escriba una cadena CSV y pulse el boton para comprobar su funcionamiento</p>
+              <p>Le dejamos los siguientes ejemplos para que comprenda su formato</p>
+            </div>
+            
+            <div id="izqui">
+              <p>Correcto:</p>
+              <p>"Hola","Juan"<br> "Como","Estas"</p>
+            </div>
+            <div id="dere">
+              <p>Inorrecto:</p>
+              <p>"Hola","Juan"<br> "Como","Estas","Hoy"</p>
+            </div>
+            
+        </div>
+      </div>
+      
+      <div id="derecha">
+        <div id="tabla">
+          <table>
+            <tr>
+              <th>Introduzca aqui la cadena CSV</th> <!-- autofocus attribute is HTML5 -->
+            </tr>
+            
+            <tr>
+              <td>
+                <textarea autofocus cols = "60" rows = "5" id="original"></textarea>
+              </td> 
+            </tr>
+            
+          </table>
+        </div>
+        <div id="final">
+          <button type="button">table:</button><br>
+          <span class="output" id="finaltable"></span>
+        </div>
+        
+      </div>
+    </div>
+    <div id="pie">
+        <p>Universidad de La Laguna</p>
+        <p>Desarrollo de Sistemas Informáticos</p>
+    </div>
     
   </body>
 </html>

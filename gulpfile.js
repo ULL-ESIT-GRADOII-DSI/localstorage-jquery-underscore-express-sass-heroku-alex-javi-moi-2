@@ -8,17 +8,27 @@ var minifyCSS  = require('gulp-minify-css');
 var ghPages = require('gulp-gh-pages');
 
 gulp.task('minify', function () {
-  gulp.src('./assets/js/csv.js')
+  gulp.src('./assets/js/*.js')
   .pipe(uglify())
-  .pipe(gulp.dest('minified'));
-
-  gulp.src('./index.html')
-    .pipe(minifyHTML())
-    .pipe(gulp.dest('./minified/'))
-
-  gulp.src('./assets/css/global.css')
+  .pipe(gulp.dest('./minified/assets/js/'));
+  
+  gulp.src('./assets/css/*.*')
    .pipe(minifyCSS({keepBreaks:true}))
-   .pipe(gulp.dest('./minified/'))
+   .pipe(gulp.dest('./minified/assets/css/'));
+   
+  gulp.src('./test/*.*')
+    .pipe(minifyHTML())
+    .pipe(gulp.dest('./minified/test/'));   
+
+  gulp.src('./*.*')
+    .pipe(minifyHTML())
+    .pipe(gulp.dest('./minified/'));
+    
+  gulp.src('./.travis.yml')
+    .pipe(minifyHTML())
+    .pipe(gulp.dest('./minified/'));    
+
+
 });
 
 gulp.task('clean', function(cb) {

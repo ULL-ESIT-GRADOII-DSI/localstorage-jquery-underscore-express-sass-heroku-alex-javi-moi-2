@@ -14,7 +14,7 @@ para desarrollar una aplicación web donde podremos realizar un CSV.
 * [Página de test](http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2/test/)
 
 ### Repositorios organización
-* [Repositorio](https://github.com/ULL-ESIT-GRADOII-DSI/karma-y-travis-alex-javi-moi-2)
+* [Repositorio](https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2)
 
 ### Página en Travis
 * [Página en Travis](https://travis-ci.org/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2)

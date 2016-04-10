@@ -11,6 +11,17 @@
      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <script src="../public/javascripts/csv.js" type="text/javascript"></script>
      <script src="../public/javascripts/main.js" type="text/javascript"></script>
+      <script type="text/html" id='fillTable'>
+       <table id="result" class="center">
+         <% _.each(items, function(name) { %>
+           <tr class="<%= name.rowClass %>">
+             <% _.each(name.value, function(cell) { %>
+               <td><%= cell %></td>
+             <% }); %>
+           </tr>
+         <% }); %>
+       </table>
+     </script>
 
   </head>
   

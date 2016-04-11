@@ -1,0 +1,50 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "karma": "~0.13.22",
+    "karma-chrome-launcher": "~0.2.3",
+    "karma-cli": "^0.1.2",
+    "karma-firefox-launcher": "~0.1.7",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-mocha": "~0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sinon": "~1.0.4",
+    "mocha": "~2.4.5",
+    "phantomjs-prebuilt": "^2.1.7",
+    "sinon": "~1.17.3",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "express": "^4.13.4",
+    "express-ejs-layouts": "^2.0.0"
+=======
+    "node-sass-middleware": "^0.9.8"
+>>>>>>> 50d4868aa7ad57cad2adb8e1f7516982db87f12d
+  }
+}

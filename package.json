@@ -40,11 +40,6 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "express": "^4.13.4",
-    "express-ejs-layouts": "^2.0.0"
-=======
     "node-sass-middleware": "^0.9.8"
->>>>>>> 50d4868aa7ad57cad2adb8e1f7516982db87f12d
   }
 }

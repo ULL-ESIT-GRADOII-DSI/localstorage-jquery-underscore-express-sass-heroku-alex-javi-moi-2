@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var calculate = require("./csv.js");
+var csv = require("./csv.js");
 
 /*
 var routes = require('./routes/index');
@@ -22,7 +22,7 @@ var expressLayouts = require('express-ejs-layouts');
 app.set('layout', 'layout'); // defaults to 'layout'  '
 
 // Serve static files
-app.use(express.static('.')); // http://expressjs.com/api.html#app.use#
+app.use(express.static('public')); // http://expressjs.com/api.html#app.use#
 app.use(expressLayouts);
 
 // uncomment after placing your favicon in /public
@@ -33,6 +33,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', function(req, res){
+  res.render('index', { title: "Comma Separated Value Analyzer", error:""});
+});
 
 app.post('/table' , function(req, res, next){
   var original = req.body.original;

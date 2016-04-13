@@ -1,3 +1,7 @@
+
+(function(exports){
+  
+
 //Cuando la pagina este lista
 $(document).ready(function () {
     
@@ -34,4 +38,4 @@ function limpiar()
    
 }
 
-
+})(this);

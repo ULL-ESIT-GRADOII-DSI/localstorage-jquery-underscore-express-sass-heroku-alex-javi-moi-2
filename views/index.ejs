@@ -25,25 +25,17 @@
 
   <div id="derecha">
     <div id="tabla">
-      <table>
-        <tr>
-          <th>Introduzca aqui la cadena CSV</th> <!-- autofocus attribute is HTML5 -->
-        </tr>
-        
-        <tr>
-          <td>
-            <textarea autofocus cols = "60" rows = "5" id="original"></textarea>
-          </td> 
-        </tr>
-        
-      </table>
-    </div>
-    <div id="final">
       <form action="/table" method="post">
-        <button type="button" onclick="crear();">Crear Tabla</button>
+        <p>Introduzca aqui la cadena CSV <!-- autofocus attribute is HTML5 --></p>
+        <table>
+          <textarea autofocus name="original" cols="80" rows="5" id="original"></textarea>
+        </table>
+       <br>
+        <button name="button" id="button" type="submit">Crear tabla</button>
         <button type="button" onclick="limpiar();">Limpiar Tabla</button><br><br>
-        <span class="output" id="finaltable"></span>
-      </form>
+    </form>
+     
+        
       
     </div>
     

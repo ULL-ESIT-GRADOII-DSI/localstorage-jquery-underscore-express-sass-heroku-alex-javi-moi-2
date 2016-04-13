@@ -1,7 +1,3 @@
-
-(function(exports){
-  
-
 //Cuando la pagina este lista
 $(document).ready(function () {
     
@@ -11,6 +7,7 @@ $(document).ready(function () {
       original.value = localStorage.original; //pone en el area de texto lo que haya en el localstorage
     }
     
+    crear();
 });
 
 //Creacion de la tabla y almacenimiento de datos en localstorage
@@ -21,11 +18,6 @@ function crear()
     if (window.localStorage) 
       localStorage.original = original; //almacena los datos en localstorage
       
-     
-    var r = calculate(original);
-    var template = fillTable.innerHTML;
-    finaltable.innerHTML = _.template(template, {items: r});
-    
 }
   
 //borrando datos de localstorage y tabla
@@ -34,8 +26,8 @@ function limpiar()
 
 	  window.localStorage.removeItem("original");      //borrar datos de localstorage
 	 	 document.getElementById('original').value = ""; //borrar contenido areatexto
-	 	finaltable.innerHTML = null;                     //borrar tabla
+
    
 }
 
-})(this);
+

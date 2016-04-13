@@ -91,7 +91,7 @@ nav{
 
 #container{
   
-  background-repeat:no-repeat;
+  
   position:static;
   width:100%;
   height:70%;
@@ -107,7 +107,8 @@ nav{
   #izquierda{
   
     
-    
+    height:480px;
+    background-color: #D8D589;
     width: 50%;
     //background:{ color:red;}
     float: left;
@@ -147,6 +148,9 @@ nav{
   
   
   #derecha{
+    width:50%;
+    height:480px;
+  background-color: #D8D589;
     p{
       color:black;
         font:{

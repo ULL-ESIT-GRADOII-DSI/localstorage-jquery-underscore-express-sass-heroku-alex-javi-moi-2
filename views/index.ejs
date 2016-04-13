@@ -1,0 +1,50 @@
+<div id="container">
+  <div id="izquierda">
+    
+    <div id="titulo">
+      <h1>Comma Separated Value Analyzer<br><br></h1>
+    </div>
+    
+    <div id="ayuda">
+        <div id="arriba">
+          <p>Escriba una cadena CSV y pulse el boton para comprobar su funcionamiento</p>
+          <p>Le dejamos los siguientes ejemplos para que comprenda su formato</p>
+        </div>
+        
+        <div id="izqui">
+          <p>Correcto: <br><br></p>
+          <p>"Hola","Juan"<br> "Como","Estas"</p>
+        </div>
+        <div id="dere">
+          <p>Incorrecto: <br><br></p>
+          <p>"Hola","Juan"<br> "Como","Estas","Hoy"</p>
+        </div>
+        
+    </div>
+  </div>
+
+  <div id="derecha">
+    <div id="tabla">
+      <form action="/table" method="post">
+        
+        <table>
+          <tr>
+              <th>Introduzca aqui la cadena CSV</th> <!-- autofocus attribute is HTML5 -->
+          </tr>
+          
+          <tr>
+            <td>
+               <textarea autofocus name="original" cols="60" rows="5" id="original"></textarea>
+            </td> 
+          </tr>
+        </table>
+        <button name="button" id="button" type="submit">Crear tabla</button>
+        <button type="button" onclick="limpiar();">Limpiar Tabla</button><br><br>
+    </form>
+     
+        
+      
+    </div>
+    
+  </div>
+</div>

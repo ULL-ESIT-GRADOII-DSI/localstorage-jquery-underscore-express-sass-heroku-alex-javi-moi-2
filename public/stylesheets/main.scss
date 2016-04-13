@@ -6,9 +6,9 @@
 
 //este es el cuerpo
 body {
-  height:100%;
+  height: 100%;
   background:{
-     color:white; 
+     color: white; 
   }
   font: {
     family: Arial, sans-serif;
@@ -91,11 +91,12 @@ nav{
 
 #container{
   
-  background-repeat:no-repeat;
+  
   position:static;
-  width:100%;
-  height:70%;
-  background:{color: #D8D589;  };
+  width: 100%;
+  height: 70%;
+  min-height: 70%;
+  background-color: #D8D589;
   h1{
     //-webkit-text-stroke: 2px black;
     font:{
@@ -107,7 +108,8 @@ nav{
   #izquierda{
   
     
-    
+    height:480px;
+    background-color: #D8D589;
     width: 50%;
     //background:{ color:red;}
     float: left;
@@ -147,6 +149,9 @@ nav{
   
   
   #derecha{
+    width:50%;
+    height:480px;
+    background-color: #D8D589;
     width: 50%;
     //background:{color: blue;}
     float:left;
@@ -167,33 +172,35 @@ nav{
         text-align:center;
         background-color: #7C797C  ;
       }
-    }
-    
-    #final{
-      margin-left: 10%;
-      
+      td{
+        background-color: #D8D589;
+      }
       button{
+        margin-top: -10px;
         width: 150px;
       }
       button:hover{
         background-color: #7C797C ;
         color: white;
       }
-      #finaltable:hover{
+    }
+    
+    #final{
+        #finaltable:hover{
         
         td{
            background-color: #63C5AF  ;
         }
-       
+      
       }
       #result{
         
         border-color:black;
         
       }
-      tr.error{
+     /* tr.error{
           background-color: #C71F1F  ; 
-        }
+        }*/
       
     }
   }

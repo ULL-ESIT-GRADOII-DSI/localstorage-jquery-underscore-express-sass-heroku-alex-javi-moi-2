@@ -106,7 +106,10 @@ nav {
         text-align: center;
         background-color: #7C797C; }
     #container #derecha #final {
-      margin-left: 10%; }
+      margin-left: 10%;
+      /* tr.error{
+           background-color: #C71F1F  ; 
+         }*/ }
       #container #derecha #final button {
         width: 150px; }
       #container #derecha #final button:hover {
@@ -116,8 +119,6 @@ nav {
         background-color: #63C5AF; }
       #container #derecha #final #result {
         border-color: black; }
-      #container #derecha #final tr.error {
-        background-color: #C71F1F; }
 
 #pie {
   position: static;

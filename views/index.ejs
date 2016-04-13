@@ -16,7 +16,7 @@
           <p>"Hola","Juan"<br> "Como","Estas"</p>
         </div>
         <div id="dere">
-          <p>Inorrecto: <br><br></p>
+          <p>Incorrecto: <br><br></p>
           <p>"Hola","Juan"<br> "Como","Estas","Hoy"</p>
         </div>
         
@@ -26,9 +26,17 @@
   <div id="derecha">
     <div id="tabla">
       <form action="/table" method="post">
-        <p>Introduzca aqui la cadena CSV <!-- autofocus attribute is HTML5 --></p>
+        
         <table>
-          <textarea autofocus name="original" cols="80" rows="5" id="original"></textarea>
+          <tr>
+              <th>Introduzca aqui la cadena CSV</th> <!-- autofocus attribute is HTML5 -->
+          </tr>
+          
+          <tr>
+            <td>
+               <textarea autofocus name="original" cols="60" rows="5" id="original"></textarea>
+            </td> 
+          </tr>
         </table>
         <button name="button" id="button" type="submit">Crear tabla</button>
         <button type="button" onclick="limpiar();">Limpiar Tabla</button><br><br>

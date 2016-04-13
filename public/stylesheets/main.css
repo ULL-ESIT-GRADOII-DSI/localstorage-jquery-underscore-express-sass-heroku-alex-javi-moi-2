@@ -55,6 +55,7 @@ nav {
   position: static;
   width: 100%;
   height: 70%;
+  min-height: 70%;
   background-color: #D8D589; }
   #container h1 {
     font-size: 40px;
@@ -90,11 +91,6 @@ nav {
     background-color: #D8D589;
     width: 50%;
     float: left; }
-    #container #derecha p {
-      color: black;
-      font-size: 20px;
-      text-align: center;
-      background-color: #7C797C; }
     #container #derecha #tabla {
       margin-left: 10%;
       margin-top: 100px; }
@@ -105,16 +101,18 @@ nav {
         font-size: 20px;
         text-align: center;
         background-color: #7C797C; }
+      #container #derecha #tabla td {
+        background-color: #D8D589; }
+      #container #derecha #tabla button {
+        margin-top: -10px;
+        width: 150px; }
+      #container #derecha #tabla button:hover {
+        background-color: #7C797C;
+        color: white; }
     #container #derecha #final {
-      margin-left: 10%;
       /* tr.error{
            background-color: #C71F1F  ; 
          }*/ }
-      #container #derecha #final button {
-        width: 150px; }
-      #container #derecha #final button:hover {
-        background-color: #7C797C;
-        color: white; }
       #container #derecha #final #finaltable:hover td {
         background-color: #63C5AF; }
       #container #derecha #final #result {

@@ -5,19 +5,12 @@ para desarrollar una aplicación web donde podremos realizar un CSV.
 
 [Descripcion de la practica](https://campusvirtual.ull.es/1516/mod/page/view.php?id=187375)
 
-### Despliegue en github.io
-
-* [Página de la práctica](http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2/)
-
-### Página de test
-
-* [Página de test](http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2/test/)
+### Despliegue de la práctica
+* [Despliegue en Heroku](https://dsip7.herokuapp.com/)
 
 ### Repositorios organización
 * [Repositorio](https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2)
 
-### Página en Travis
-* [Página en Travis](https://travis-ci.org/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2)
 
 ###Páginas personales
 #####Alexander
@@ -29,7 +22,3 @@ para desarrollar una aplicación web donde podremos realizar un CSV.
 #####Moisés
 * [Página personal](http://alu0100782851.github.io/)
 
-
-### Badge Travis
-
-[![Build Status](https://travis-ci.org/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2.svg?branch=master)](https://travis-ci.org/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2)

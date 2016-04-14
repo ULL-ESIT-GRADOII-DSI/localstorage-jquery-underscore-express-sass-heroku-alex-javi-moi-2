@@ -5,8 +5,7 @@ para desarrollar una aplicación web donde podremos realizar un CSV.
 
 [Descripcion de la practica](https://campusvirtual.ull.es/1516/mod/page/view.php?id=187375)
 
-### Despliegue en github.io
-
+### Despliegue de la práctica
 * [Despliegue en Heroku](https://dsip7.herokuapp.com/)
 
 ### Repositorios organización

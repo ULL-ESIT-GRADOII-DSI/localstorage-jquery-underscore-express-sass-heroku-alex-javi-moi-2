@@ -7,9 +7,7 @@ para desarrollar una aplicación web donde podremos realizar un CSV.
 
 ### Despliegue en github.io
 
-* [Página de la práctica](http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2/)
-
-* [Despliegue en Heroku](https://dsip7.herokuapp.com/table)
+* [Despliegue en Heroku](https://dsip7.herokuapp.com/)
 
 ### Repositorios organización
 * [Repositorio](https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-alex-javi-moi-2)

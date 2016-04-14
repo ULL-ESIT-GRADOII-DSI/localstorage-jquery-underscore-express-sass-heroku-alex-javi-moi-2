@@ -26,6 +26,4 @@ function limpiar()
 
 	  window.localStorage.removeItem("original");      //borrar datos de localstorage
 	 	document.getElementById('original').value = ""; //borrar contenido areatexto
-
-   
 }
